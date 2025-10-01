@@ -131,32 +131,4 @@ chat-app/
 └── README.md
 ```
 
----
 
-## Cách cài đặt & chạy
-
-### 1. Clone repo
-```bash
-git clone https://github.com/<username>/realtime-chat-app.git
-cd realtime-chat-app
-```
-
-### 2. Cài dependencies
-```bash
-npm install
-```
-
-### 3. Tạo file ```.env``` và cấu hình Firebase
-```bash
-VITE_FIREBASE_API_KEY=xxxx
-VITE_FIREBASE_AUTH_DOMAIN=xxxx
-VITE_FIREBASE_PROJECT_ID=xxxx
-VITE_FIREBASE_STORAGE_BUCKET=xxxx
-VITE_FIREBASE_MESSAGING_SENDER_ID=xxxx
-VITE_FIREBASE_APP_ID=xxxx
-```
-
-### 4. Chạy ứng dụng
-```bash
-npm run dev
-```
